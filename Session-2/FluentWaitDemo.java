@@ -36,13 +36,13 @@ System.setProperty("webdriver.chrome.driver", "D:\\Phase-5\\chromedriver2023\\ch
 			public WebElement apply(WebDriver driver) {
 				// TODO Auto-generated method stub
 				
-				WebElement text=driver.findElement(By.xpath("//*[@id=\"demo\"]"));
-				String getTextonPage=text.getText();
+				WebElement element=driver.findElement(By.xpath("//*[@id=\"demo\"]"));
+				String getTextonPage=element.getText();
 				
 				if(getTextonPage.equals("Software Testing Material - DEMO PAGE")) {
 					System.out.println(getTextonPage);
 					
-					return text;
+					return element;
 				}
 				else {
 					
