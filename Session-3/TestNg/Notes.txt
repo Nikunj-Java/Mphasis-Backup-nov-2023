@@ -1,0 +1,16 @@
+Goto>help>Eclips Marketplace>TestNg
+
+>Install the plugin
+
+> check all the checkboxes and proceed installtion
+
+> restart the eclips and we are ready to do testNg test Cases
+
+
+--------------------------------------------------------------
+
+> goto>eclips>mavenproject>quickstart>
+>goto> pom.xml file> add selenium java and testNg Dependency
+>rightclick project>maven>update the project
+
+>src>test>java>packaege>create TestNg test
